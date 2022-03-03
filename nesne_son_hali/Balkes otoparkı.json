@@ -1,0 +1,27 @@
+{
+  "$id": "1",
+  "parkAdi": "Balkes otopark\u0131",
+  "musteriler": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "_musteri": {
+          "$ref": "1"
+        },
+        "parkEdilenYer": {
+          "$ref": "1"
+        },
+        "arac": {
+          "$id": "4",
+          "plaka": "10 blk 1010",
+          "tip": 0
+        },
+        "parkEdilenTip": 0,
+        "parktaMi": true,
+        "odemeYapildiMi": true
+      }
+    ]
+  },
+  "toplamMusteriSayisi": 1
+}
